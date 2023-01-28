@@ -10,6 +10,17 @@ set tabstop=4
 set shiftwidth=4
 set smarttab
 set softtabstop=4
+<<<<<<< HEAD
+=======
+set cursorline
+set cursorcolumn
+set nowrap
+
+set guifont=Hack-Regular:12
+
+" Allow inotifywait to detect changes
+set backupcopy=no
+>>>>>>> Initial commit
 
 " Auto open plugins on vim launch
 autocmd vimenter * Tagbar
@@ -37,5 +48,13 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
 let g:devicons_enable_folder_syntax_highlighting = 1
 let g:devicons_folders_as_icons = 1
 
+<<<<<<< HEAD
 " Color git buffer
 highlight VimgutterBuffer ctermbg=red
+=======
+
+" Color git buffer
+highlight VimgutterBuffer ctermbg=red
+
+
+>>>>>>> Initial commit

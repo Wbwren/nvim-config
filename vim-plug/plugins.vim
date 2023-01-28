@@ -51,5 +51,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
     Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 	Plug 'https://github.com/airblade/vim-gitgutter'
+<<<<<<< HEAD
+=======
+	Plug 'https://github.com/vimwiki/vimwiki'
+	Plug 'nvim-treesitter/nvim-treesitter'
+	Plug 'nvim-treesitter/nvim-treesitter-context'
+>>>>>>> Initial commit
 
 call plug#end()
